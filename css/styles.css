@@ -314,6 +314,76 @@ table {
   caption-side: bottom;
   border-collapse: collapse;
 }
+.table {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+    .table thead th {
+        background-color: #eef4ff;
+        color: #174a8b;
+        font-weight: 600;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .table td {
+        vertical-align: middle;
+    }
+
+.stt {
+    text-align: center;
+    font-weight: 600;
+    width: 55px;
+}
+
+.title-cell {
+    min-width: 320px;
+}
+
+.author-main {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.author-co {
+    color: #495057;
+}
+
+.year {
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.journal {
+    min-width: 250px;
+}
+
+.doi-link {
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+    .doi-link:hover {
+        text-decoration: underline;
+    }
+
+.book-table thead th {
+    text-align: center;
+}
+
+.book-type {
+    text-align: center;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.book-responsibility {
+    text-align: center;
+}
 
 caption {
   padding-top: 0.5rem;
